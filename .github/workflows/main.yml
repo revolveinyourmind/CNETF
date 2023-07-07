@@ -11,7 +11,7 @@ jobs:
     runs-on : windows-latest
     strategy:
       matrix:
-        r-version: ["4.2.2"]
+        r-version: ["4.2.3"]
     steps:
       - uses: actions/checkout@v3
       - name: Set up R ${{ matrix.r-version }}
