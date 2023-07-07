@@ -1,5 +1,4 @@
 
-sudo apt-get install libxml2-dev
 install.packages("xml2")
 
 library(lubridate)
