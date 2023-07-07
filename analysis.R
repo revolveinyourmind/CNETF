@@ -1,6 +1,7 @@
 
 library(lubridate)
 library(rvest)
+library(xml2)
 library(stringr)
 library(quantmod)
 library(writexl)
