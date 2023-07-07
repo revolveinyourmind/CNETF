@@ -1,5 +1,5 @@
 
-
+install.packages("rvest")
 library(lubridate)
 library(rvest)
 library(stringr)
