@@ -1,6 +1,7 @@
 
 library(lubridate)
 library(rvest)
+library(xm12)
 library(stringr)
 library(quantmod)
 library(writexl)
