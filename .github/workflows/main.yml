@@ -20,7 +20,7 @@ jobs:
           r-version: ${{ matrix.r-version }}
       - name: Install dependencies
         run: |
-          install.packages(c("remotes", "rcmdcheck", "lubridate", "stringr", "quantmod", "writexl", "googlesheets4", "xml2", "rvest"))
+          install.packages(c("remotes", "rcmdcheck", "lubridate", "stringr", "quantmod", "writexl", "googlesheets4", "XML", "rvest"))
         shell: Rscript {0}
       - name: Run
         run: Rscript analysis.R
