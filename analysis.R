@@ -1,5 +1,5 @@
 
-install.packages("xml2")
+apt install libxml2=2.9.3+dfsg1-1ubuntu0.7
 
 library(lubridate)
 library(rvest)
