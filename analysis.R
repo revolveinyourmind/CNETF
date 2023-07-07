@@ -1,7 +1,9 @@
 
+sudo apt-get install libxml2-dev
+install.packages("xml2")
+
 library(lubridate)
 library(rvest)
-library(xml2)
 library(stringr)
 library(quantmod)
 library(writexl)
