@@ -1,5 +1,0 @@
-
-gunicorn
-line-bot-sdk
-pygsheets
-Flask==2.2.2
